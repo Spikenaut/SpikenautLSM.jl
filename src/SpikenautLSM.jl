@@ -12,6 +12,12 @@ Provides two LSM implementations:
   16-channel input/output for rapid prototyping.
 
 Both implementations are conditionally loaded when a CUDA GPU is available.
+
+## Provenance
+
+Extracted from Eagle-Lander, the author's own private neuromorphic GPU supervisor
+repository (closed-source). The EnsembleBrain ran in production driving Dynex/Quai/Qubic
+portfolio decisions before being open-sourced as a standalone Julia package.
 """
 module SpikenautLSM
 
